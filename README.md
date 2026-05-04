@@ -1,4 +1,5 @@
 # Income Statement Analysis
+
 **Project Overview**
 
 **Understanding income statement analysis**
@@ -12,8 +13,11 @@ Imagine running a lemonade stand without ever counting your costs. You sell 100 
 **Key Focus Area**
 
 •	Which companies lead on net margin, operating margin and gross margin
+
 •	How much profit they have left after all the expenses
+
 •	How the business made profits overtime
+
 •	How expenses affect the business
 
 **Data Sources**
@@ -25,52 +29,86 @@ This dataset contains standardized annual and quarterly income statements for va
 **Key features include;**
 
 •	Timeseries indicators: fiscal date ending & reported currency
+
 •	Revenue metrics: total revenue, gross profit, & cost of revenue
+
 •	Operating insights: operating income, operating expenses, research & development and selling general & administrative
+
 •	Profitability ratios: EBIT, EBITDA, and net income
+
 •	Tax & interest: income tax expenses, interest expenses and income before tax
  
 **Tools & Technology**
 
  Excel: explored and analyzed dataset 
+ 
  Power BI:  Interactive dashboards for insightful storytelling.
+ 
  Power Query: Transform and clean dataset
+ 
  DAX: calculate measures, time intelligence and KPI’s
  
 **Data Cleaning**
 
 •	Changed data type
+
 •	Replaced error
+
 •	Null & zero handling
+
 •	Removed duplicates
+
 •	Changed date format
+
 •	Currency normalization
-**Dashboard Snapsho**t
+
+**Dashboard Snapshot**
+
+<img width="1018" height="555" alt="updated overview" src="https://github.com/user-attachments/assets/b286cc99-a00f-4235-aa74-739f5980acd2" />
+<img width="978" height="550" alt="updated margins" src="https://github.com/user-attachments/assets/b2296ea5-c719-4e28-a191-a28dddb337f1" />
+<img width="977" height="548" alt="updated expenses" src="https://github.com/user-attachments/assets/2e03edaa-1c27-4a78-bbd6-fbcab4565acd" />
+<img width="1027" height="553" alt="updated analysis" src="https://github.com/user-attachments/assets/6504a525-938c-490a-ab56-9730c1f8a930" />
+
+
+
+
 
 **Key Insights**
 
 **Overview Insights:**
 
 •	Revenue & Net income comparison: TSM had the highest revenue & net income of $22T and $8T respectively.
+
 •	Yearly Net & gross profit margin: The companies had an overall 46% gross profit margin and as at 2025 an overall net margin of 50% & 54% respectively.
+
 •	Effective tax rate: XOM had the highest effective tax rate of 36%
+
 •	Expenses: TSM had the highest total expenses of $14T
+
 •	Operating expenses vs YOY revenue growth: TSM had an operating expenses of 10T & 20% YoY revenue growth
+
 •	YoY growth rate: NVDA has the highest YoY growth rate of 62% & operating expenses of $94b
 
 **Margins Insights:**
 
 •	operating margin: The highest operating margin is 44% as at Quater 2
+
 •	Net profit margin: V has the highest total margin of 222%
+
 •	EBITDA margin: V had the highest EBITDA margin of 318%
+
 •	Gross margin: The total gross margin of the companies is 46%
+
 •	Expenses ratio: PLTR had the highest expense ratio of 107%
 
 **Expenses Insights:**
 
 •	Effective tax rate: the highest total effective tax rate was at Quater 2 (19%)
+
 •	Expenses ratio: the total highest of all the companies is in 2008 at 88%
+
 •	Operating expenses: TSM had the highest operating expenses of $10T
+
 •	R&D intensity VS SG&A intensity: PLTR had the highest R&D intensity of 22% while JNJ had the highest SG&A of 32%
 
 
@@ -78,13 +116,17 @@ This dataset contains standardized annual and quarterly income statements for va
 
 Focusing on the top 3, NVDA, JNJ and V;
 
-Symbol	Revenue	Net margin	Net income	Gross margin	Operating margin	EBITDA margin	Expense ratio
-TSM	$21T	81%	$8T	53%	90%	137%  62%
-WMT	$10T	4%	$290B	25%	6%	9%	97%
-XOM	$6T	11%	$573B	27%	16%	27%	92%
-JNJ	$1T	64%	$303B	69%	83%	99%	80%
-NVDA	$489B	135%	$214B	68%	149%	163%	56%
-V	$345B	222%	$158B	81%	288%	318%	54%
+**TSM:**    Revenue 	$21T	, Net margin 81% , Net income $8T, Gross margin	53% , Operatin margin	90%	, EBITDA margin 137% , Expense ratio 62%
+
+**WMT:**    Revenue $10T, Net margin	4%, Net income $290B	,Gross margin 25%,	Operatin margin 6%	,EBITDA margin 9%,Expense ratio 97%
+
+**XOM:** Revenue $6T, Net margin	11%, Net income	$573B, Gross margin	27%, Operating margin	16%, EBITDA margin 27%	, Expense ratio 92%
+
+**JNJ:**	Revenue $1T, Net margin	64%, Net income	$303B,Gross margin	69%, Operating margin	83%, EBITDA	margin 99%,Expense ratio	80%
+
+**NVDA:** Revenue $489B, Net margin 135%, Net income	$214B,Gross margin	68%,Operating margin	149%, EBITDA margin	163%, Expense ratio	56%
+
+**V:**	Revenue $345B, Net margin	222%, Net income	$158B, Gross margin	81%	, Operating margin 288%, EBITDA margin	318%, Expense ratio	54%
 
 
 
@@ -154,17 +196,23 @@ Management should focus on diversifying and growing its revenue streams to reduc
 **Interact with the Dashboard**
 
 Explore the interactive dashboard for deeper insights:
-📌 View Dashboard Here:
+
+📌 [View Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiNTdmY2IyY2QtMDZkYy00ZTdlLTgzZmUtOTBjNDk2OThiZjM3IiwidCI6Ijk4MTkxYzFlLTRhNTYtNDc4MC05YmU3LTAxMzM3MDIyOGJmNiJ9)
 
 **Future improvement**
 
 •	Perform deep fundamental analysis and predictive modelling to forecast future gross profit and net income trends
+
+
 •	Add balance sheet data & cash flow statement
 Tools: python & Machine Learning
 
 **Author**
 
-Afolabi Oluwafunmise 
+Afolabi Oluwafunmise
+
 Financial Analyst | Data Analyst
-afolabioluwafunmise@gmail.com
+
+afolabioluwafunmise@gmail.com | [LINKEDIN](https://www.linkedin.com/in/afolabi-oluwafunmise?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
 
