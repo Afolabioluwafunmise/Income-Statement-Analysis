@@ -64,9 +64,20 @@ This dataset contains standardized annual and quarterly income statements for va
 
 **Dashboard Snapshot**
 
+**Overview Snapshot**
+
 <img width="1018" height="555" alt="updated overview" src="https://github.com/user-attachments/assets/b286cc99-a00f-4235-aa74-739f5980acd2" />
+
+**Margins Snapshot**
+
 <img width="978" height="550" alt="updated margins" src="https://github.com/user-attachments/assets/b2296ea5-c719-4e28-a191-a28dddb337f1" />
+
+**Expenses Snapshot**
+
 <img width="977" height="548" alt="updated expenses" src="https://github.com/user-attachments/assets/2e03edaa-1c27-4a78-bbd6-fbcab4565acd" />
+
+**Income Statement Analysis Snapshot**
+
 <img width="1027" height="553" alt="updated analysis" src="https://github.com/user-attachments/assets/6504a525-938c-490a-ab56-9730c1f8a930" />
 
 
